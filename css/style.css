@@ -8,7 +8,7 @@ body{
     background-color: #000;
 }
 
-header{
+.header_container{
     height: 45px;
     border: 1px solid white;
     display: flex;
@@ -16,7 +16,7 @@ header{
     align-items: center;
     padding-right: 10px;
 }
-header button{
+.header_container button{
     background-image: linear-gradient(#35373b, #232427);
     color: #DCDCDC;
     padding: 5px 8px 4px;
