@@ -38,8 +38,9 @@ i{
 
 /* main */
 .main_container{
-    height: calc(100vh - 105px);;
-    width: 100%;
+    height: calc(100vh - 165px);;
+    width: 90%;
+    margin: 15px auto 30px;
     border: 1px solid white;
 }
 
