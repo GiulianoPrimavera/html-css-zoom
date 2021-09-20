@@ -40,6 +40,9 @@ img{
     border: none;
     border-radius: 4px;
 }
+.header_container button:hover{
+    cursor: pointer;
+}
 .header_container button:active{
     border-top: 2px inset #9c9c9c;
 }
@@ -160,13 +163,20 @@ img{
 .audio_video, .commands{
     display: flex;
 }
+/* animazioni bottoni del footer */
+.footer_container .audio_video div:hover, .commands div:hover{
+    background-color: #494b50;
+}
+
+
 .footer_container > div > div{
     display: inline-block;
     text-align: center;
+    border-radius: 10px;
 }
 .footer_container i{
     font-size: 20px;
-    padding: 0 25px;
+    padding: 5px 25px;
 }
 .footer_container p{
     color: #DCDCDC;
@@ -178,9 +188,15 @@ img{
 }
 .footer_container .fas.fa-chevron-up{
     font-size: 15px;
-    padding: 0 8px;
+    padding: 15px 8px;
     align-self: center;
+    border-radius: 10px;
 }
+/* animazioni chevron */
+.footer_container .fas.fa-chevron-up:hover{
+    background-color: #494b50;
+}
+
 .exit{
     background-color: #4B4C4F;
     align-self: stretch;
@@ -190,4 +206,9 @@ img{
     padding: 0 10px;
     color: rgb(206, 87, 87);
     font-weight: bold;
+}
+/* animazione exit button */
+.exit:hover{
+    border-radius: 10px;
+    background-color: #38383a;
 }
