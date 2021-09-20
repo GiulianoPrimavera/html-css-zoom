@@ -68,6 +68,11 @@ img{
     border: 5px solid #000;
     position: relative;
 }
+.container > div:hover{
+    border: 5px solid rgba(153, 205, 50, 0.5);
+
+}
+
 .name_surname{
     color: #FFF;
     position: absolute;
@@ -79,23 +84,50 @@ img{
     color: #FFF;
 }
 
+.link_arrow{
+    display: inline-block;
+    align-self: center;
+    position: absolute;
+    text-decoration: none;
+    color: #000;
+}
+.link_arrow_left{
+    left: 0;
+    margin-left: 15px;
+}
+.link_arrow_left:active .arrow_left{
+    border-right: 30px solid #0000ff;
+}
+
+.link_arrow_right{
+    right: 0;
+    margin-right: 15px;
+}
+.link_arrow_right:active .arrow_right{
+    border-left: 30px solid #0000ff;
+}
+
+
 .arrow{
     height: 60px;
     width: 30px;
     border-top: 30px solid #000;
     border-bottom: 30px solid #000;
-    align-self: center;
-    margin: 15px;
-    position: absolute;
 }
 .arrow_left{
     border-right: 30px solid #d3d3d3;
-    left: 0;
 }
+.arrow_left:hover{
+    border-right: 30px solid #87cefa;
+}
+
 .arrow_right{
     border-left: 30px solid #d3d3d3;
-    right: 0;
 }
+.arrow_right:hover{
+    border-left: 30px solid #87cefa;
+}
+
 .arrow_left p{
     position: relative;
     bottom: 8px;
