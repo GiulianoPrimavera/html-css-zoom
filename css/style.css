@@ -18,7 +18,6 @@ i{
 .header_container{
     height: 45px;
     width: 100%;
-    border: 1px solid white;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -38,16 +37,44 @@ i{
 .footer_container{
     height: 60px;
     width: 100%;
-    border: 1px solid white;
     position: fixed;
     bottom: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #232427;
+}
+.audio_video, .commands{
+    display: flex;
 }
 .footer_container > div > div{
     display: inline-block;
+    text-align: center;
+}
+.footer_container i{
+    font-size: 25px;
+    padding: 0 20px;
 }
 .footer_container p{
     color: #DCDCDC;
+    font-size: 14px;
+}
+.footer_container a{
+    align-self: center;
+    text-decoration: none;
+}
+.footer_container .fas.fa-chevron-up{
+    font-size: 20px;
+    padding: 0 8px;
+    align-self: center;
+}
+.exit{
+    background-color: #4B4C4F;
+    align-self: stretch;
+}
+.exit p{
+    line-height: 60px;
+    padding: 0 10px;
+    color: rgb(206, 87, 87);
+    font-weight: bold;
 }
