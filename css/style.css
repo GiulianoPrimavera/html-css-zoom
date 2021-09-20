@@ -167,6 +167,9 @@ img{
 .footer_container .audio_video div:hover, .commands div:hover{
     background-color: #494b50;
 }
+.footer_container .audio_video div:active, .commands div:active{
+    background-color: #38383a;
+}
 
 
 .footer_container > div > div{
@@ -196,6 +199,9 @@ img{
 .footer_container .fas.fa-chevron-up:hover{
     background-color: #494b50;
 }
+.footer_container .fas.fa-chevron-up:active{
+    background-color: #38383a;
+}
 
 .exit{
     background-color: #4B4C4F;
@@ -211,4 +217,7 @@ img{
 .exit:hover{
     border-radius: 10px;
     background-color: #38383a;
+}
+.exit:active{
+    background-color: #494b50;
 }
