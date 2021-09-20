@@ -61,7 +61,6 @@ img{
     width: calc(100% / 5);
     min-height: 150px;
     min-width: 200px;
-    border: 1px solid white;
     display: inline-block;
     
 }
