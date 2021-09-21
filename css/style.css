@@ -176,6 +176,7 @@ img{
     display: inline-block;
     text-align: center;
     border-radius: 10px;
+    position: relative;
 }
 .footer_container i{
     font-size: 20px;
@@ -190,14 +191,16 @@ img{
     text-decoration: none;
 }
 .footer_container .fas.fa-chevron-up{
-    font-size: 15px;
-    padding: 15px 8px;
+    font-size: 10px;
+    padding: 10px 8px;
     align-self: center;
     border-radius: 10px;
+    position: absolute;
+    right: 0;
 }
 /* animazioni chevron */
 .footer_container .fas.fa-chevron-up:hover{
-    background-color: #494b50;
+    background-color: #606369;
 }
 .footer_container .fas.fa-chevron-up:active{
     background-color: #38383a;
