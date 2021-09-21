@@ -180,7 +180,7 @@ img{
 }
 .footer_container i{
     font-size: 20px;
-    padding: 5px 25px;
+    padding: 5px 30px;
 }
 .footer_container p{
     color: #DCDCDC;
@@ -193,7 +193,6 @@ img{
 .footer_container .fas.fa-chevron-up{
     font-size: 10px;
     padding: 10px 8px;
-    align-self: center;
     border-radius: 10px;
     position: absolute;
     right: 0;
